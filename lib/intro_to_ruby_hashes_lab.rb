@@ -1,6 +1,6 @@
 def my_hash_creator(key, value)
 another_hash = Hash.new
-another_hash[:key] = value.to_s
+another_hash[:name] = value.to_s
 another_hash
 end
 
