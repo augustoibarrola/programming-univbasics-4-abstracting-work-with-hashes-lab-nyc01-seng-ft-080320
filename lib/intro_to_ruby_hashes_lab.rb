@@ -1,4 +1,4 @@
-def my_hash_creator(key, value)
+def my_hash_creator(name, value)
 another_hash = Hash.new
 another_hash[:name] = value.to_s
 another_hash
