@@ -1,7 +1,7 @@
-def my_hash_creator(name, value)
+def my_hash_creator(key, value)
 another_hash = Hash.new
-another_hash[:name] = value.to_s
-another_hash
+another_hash[:key] = value
+return another_hash
 end
 
 def read_from_hash(hash, key)
