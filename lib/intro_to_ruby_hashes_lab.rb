@@ -14,6 +14,7 @@ if hash[key]
 else
   hash[key] = 1
 end
+hash[key]
 end
 
 # given a hash an a key as parameters, return an updated hash
